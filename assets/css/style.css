@@ -1,0 +1,57 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 40px 20px;
+    color: #333;
+    background-image: url("https://images.unsplash.com/photo-1497366754035-f200968a6e72");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.newHead {
+    font-style: italic;
+    background-color: rgba(210, 225, 245, 0.95);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.headings {
+    font-style: italic;
+    color: #fff;
+    background-color: #343a40;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.my-card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-body {
+    background-color: rgba(255, 255, 255, 0.96);
+}
+
+.spinner {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.spinner.d-none {
+    display: none;
+}
